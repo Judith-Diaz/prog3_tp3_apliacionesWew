@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h2 style="padding-top: 100px; padding-right:  100px; padding-bottom:  100px; padding-left:  300px;">Bienvenido a Inicio.aspx</h2>
         </div>
     </form>
 </body>

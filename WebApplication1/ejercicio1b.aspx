@@ -34,12 +34,12 @@
          <!--<asp:ScriptManager runat="server"></asp:ScriptManager>     esto tube que agregar para que me funcione ele fomulario porque le faltaba lo delquuary y atambien agreggee algo mas arriba del todo, esto ba abajo del form -->
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style5"><b>Localida</b></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style6"><b>Localida</b></td>
                 
-                <td>&nbsp;</td>
+          
                 
-                <td>&nbsp;</td>
+                <td class="auto-style4"></td>
                 
             </tr>
             <tr>
@@ -124,11 +124,12 @@
             <tr>
                 <td class="auto-style2">Nombre usuario:</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="Txt_NombreUsuario" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txt_NombreUsuario" runat="server" ValidationGroup="grupo2"></asp:TextBox>
                 </td>
        
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfv_nombre" runat="server" ControlToValidate="Txt_NombreUsuario" ForeColor="#CC00FF" ValidationGroup="grupo2">* ingresar nombre</asp:RequiredFieldValidator>
+                </td>
        
                 <td>
                     &nbsp;</td>
@@ -137,11 +138,13 @@
             <tr>
                 <td class="auto-style2">Contraseña:</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="Txt_contraseña" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txt_contraseña" runat="server" TextMode="Password" ValidationGroup="grupo2"></asp:TextBox>
                 </td>
          
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfv_contraseña" runat="server" ControlToValidate="Txt_contraseña" ForeColor="Fuchsia" ValidationGroup="grupo2">* ingresar contraseña</asp:RequiredFieldValidator>
+                    <asp:CompareValidator ID="cv_contraseña" runat="server" ControlToCompare="Txt_contraseña" ControlToValidate="Txt_repeCOntraseña" ForeColor="#6600CC" ValidationGroup="grupo2">* las contraseñas no son iguales</asp:CompareValidator>
+                </td>
          
                 <td>
                     &nbsp;</td>
@@ -150,11 +153,12 @@
             <tr>
                 <td class="auto-style2">Repetir Contraseña: </td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="Txt_repeCOntraseña" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txt_repeCOntraseña" runat="server" TextMode="Password" ValidationGroup="grupo2"></asp:TextBox>
                 </td>
            
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfv_repContraseña" runat="server" ControlToValidate="Txt_repeCOntraseña" ForeColor="#FF33CC" ValidationGroup="grupo2">* reoetir contraseña</asp:RequiredFieldValidator>
+                </td>
            
                 <td>
                     &nbsp;</td>
@@ -163,11 +167,13 @@
             <tr>
                 <td class="auto-style2">Correo electrónico:</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="Txt_correo" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txt_correo" runat="server" ValidationGroup="grupo2"></asp:TextBox>
                 </td>
              
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfv_correoElectronico" runat="server" ControlToValidate="Txt_correo" ForeColor="#FF33CC" ValidationGroup="grupo2">* ingrese correo electronico</asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="rev_email" runat="server" ControlToValidate="Txt_correo" ForeColor="#660066" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="grupo2">*lo ingresado no concuenerda ocn un email</asp:RegularExpressionValidator>
+                </td>
              
                 <td>
                     &nbsp;</td>
@@ -176,11 +182,13 @@
             <tr>
                 <td class="auto-style2">CP:</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="Txt_cp" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txt_cp" runat="server" ValidationGroup="grupo2"></asp:TextBox>
                 </td>
       
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfv_cp" runat="server" ControlToValidate="Txt_cp" ForeColor="#FF33CC" ValidationGroup="grupo2">* ingrese cp</asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="rev_cp" runat="server" ControlToValidate="Txt_cp" ForeColor="#6600CC" ValidationExpression="^\d{4}$" ValidationGroup="grupo2">* cp invalido</asp:RegularExpressionValidator>
+                </td>
       
                 <td>
                     &nbsp;</td>
@@ -189,12 +197,13 @@
             <tr>
                 <td class="auto-style2">Localidad:</td>
                 <td class="auto-style5">
-                    <asp:DropDownList ID="Ddl_localidad" runat="server" Width="194px">
+                    <asp:DropDownList ID="Ddl_localidad" runat="server" Width="194px" ValidationGroup="grupo2">
                     </asp:DropDownList>
                 </td>
          
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfv_localidad" runat="server" ControlToValidate="Ddl_localidad" ForeColor="#FF33CC" InitialValue="Seleccione una localidad" ValidationGroup="grupo2">*seleccione una localisdad</asp:RequiredFieldValidator>
+                </td>
          
                 <td>
                     &nbsp;</td>
@@ -212,11 +221,12 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="Btn_guardarUsuario" runat="server" Text="GuardarUsuario" />
+                    <asp:Button ID="Btn_guardarUsuario" runat="server" Text="GuardarUsuario" ValidationGroup="grupo2" OnClick="Btn_guardarUsuario_Click" />
                 </td>
            
                 <td>
-                    &nbsp;</td>
+                    <asp:Label ID="lbl_mensaje" runat="server" Font-Bold="True" Font-Size="Larger" ForeColor="#660033"></asp:Label>
+                </td>
            
                 <td>
                     &nbsp;</td>
@@ -233,7 +243,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Button ID="Btn_inicio" runat="server" Text="Ir al inicio .aspx" />
+                    <asp:Button ID="Btn_inicio" runat="server" Text="Ir al inicio .aspx" OnClick="Btn_inicio_Click" ValidationGroup="grupo3" />
                 </td>
                 <td class="auto-style5">&nbsp;</td>
              

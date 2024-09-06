@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|c:\\users\\judhit\\desktop\\utn\\cursando\\legislacion\\programacion3\\unidad.3\\webapplication1\\prog3_tp3_apliacioneswew\\webapplication1\\ejercicio1b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\ejercicio1b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\webapplication1\\ejercicio1b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\ejercicio1b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|c:\\users\\judhit\\desktop\\utn\\cursando\\legislacion\\programacion3\\unidad.3\\webapplication1\\prog3_tp3_apliacioneswew\\webapplication1\\ejercicio1b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\ejercicio1b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92CA6061-33B1-42BE-BEEB-5F332B610821}|WebApplication1\\WebApplication1.csproj|C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\webapplication1\\ejecicio1a.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -21,12 +21,25 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 103,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
           "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ejercicio1b.aspx",
+              "DocumentMoniker": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\WebApplication1\\ejercicio1b.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\ejercicio1b.aspx",
+              "ToolTip": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\WebApplication1\\ejercicio1b.aspx",
+              "RelativeToolTip": "WebApplication1\\ejercicio1b.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-05T21:52:32.103Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,28 +53,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ejercicio1b.aspx.cs",
               "DocumentMoniker": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\WebApplication1\\ejercicio1b.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\ejercicio1b.aspx.cs",
               "ToolTip": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\WebApplication1\\ejercicio1b.aspx.cs",
               "RelativeToolTip": "WebApplication1\\ejercicio1b.aspx.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwC0AAACUAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABMAAACsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T23:42:45.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ejercicio1b.aspx",
-              "DocumentMoniker": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\WebApplication1\\ejercicio1b.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\ejercicio1b.aspx",
-              "ToolTip": "C:\\Users\\judhit\\Desktop\\UTN\\CURSANDO\\LEGISLACION\\PROGRAMACION3\\unidad.3\\WebApplication1\\prog3_tp3_apliacionesWew\\WebApplication1\\ejercicio1b.aspx",
-              "RelativeToolTip": "WebApplication1\\ejercicio1b.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-04T23:18:59.596Z",
               "EditorCaption": ""
             },
             {
